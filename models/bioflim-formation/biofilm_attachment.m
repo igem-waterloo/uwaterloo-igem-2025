@@ -4,7 +4,6 @@ function [formation_rate_cells, formation_rate_time, avg_cell_density] = biofilm
     % coverage (critical point for clinical considerations
     
     %% Parameters
-    %catheter_length = 40;     % catheter length (cm)
     catheter_diameter = 0.5;  % inner diameter (cm)
     T = 37;                  % body temperature (°C)
     urine_flow_rate = 1.5;   % mL/min
@@ -16,7 +15,6 @@ function [formation_rate_cells, formation_rate_time, avg_cell_density] = biofilm
     ka_protein = 0.08;       % protein adsorption rate (/s)
     kd_protein = 0.005;      % protein desorption rate (/s)
     C_protein = 2.0;         % protein concentration (mg/mL)
-    %D_bacteria = 5e-6;       % bacterial diffusion coefficient (cm²/s)
     n_bulk = 1e7;           % bacterial concentration (cells/mL)
     ka_attach_base = 0.12;   % base attachment rate (/s)
     
