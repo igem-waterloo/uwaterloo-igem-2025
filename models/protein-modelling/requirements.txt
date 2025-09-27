@@ -1,0 +1,8 @@
+numpy
+glob
+os
+pandas
+Bio
+re
+sys
+tqdm
